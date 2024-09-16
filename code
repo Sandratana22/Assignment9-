@@ -1,0 +1,27 @@
+//Assignment 9 
+
+#include <iostream>
+#include <string>
+
+//Performing string and logical operation
+using namespace std; 
+
+int main(){
+    string UScitizen, BachelorDegree;
+    int Experience = 2; 
+
+    cout << "US Citizen: " << endl; 
+    cin >> UScitizen;  
+    cout << "Bachelor Degree: " << endl; 
+    cin >> BachelorDegree;
+    cout << "Experience years: " << endl; 
+    cin >> Experience;
+
+    if(UScitizen == "yes" && BachelorDegree == "yes" || Experience >= 2){
+        cout << "Applicant is Eligible for the job" << endl; 
+    } else {
+        cout << "Applicant is NOT Eligible for the job" << endl; 
+    }
+
+    return 0; 
+}
