@@ -17,7 +17,7 @@ int main(){
     cout << "Experience years: " << endl; 
     cin >> Experience;
 
-    if(UScitizen == "yes" && BachelorDegree == "yes" || Experience >= 2){
+    if((UScitizen == "yes") && BachelorDegree == "yes" || Experience >= 2){
         cout << "Applicant is Eligible for the job" << endl; 
     } else {
         cout << "Applicant is NOT Eligible for the job" << endl; 
